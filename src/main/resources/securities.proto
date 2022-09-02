@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package protobuf;
+
+option java_package = "ru.sbrf.efx.zeromqtest.dto";
+option java_outer_classname = "Securities";
+
+message Security {
+  int32 id = 1;
+  string secId = 2;
+  double rate = 3;
+}
+

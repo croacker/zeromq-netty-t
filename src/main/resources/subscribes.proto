@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package protobuf;
+
+option java_package = "ru.sbrf.efx.zeromqtest.dto";
+option java_outer_classname = "Subscribes";
+
+message Subscribe {
+  int32 id = 1;
+  string serviceName = 2;
+  string topicName = 3;
+}
+
